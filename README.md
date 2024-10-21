@@ -51,7 +51,11 @@ python -m pip install -e exts/g1_template
 - Verify that the extension is correctly installed by running the following command:
 
 ```bash
-python scripts/rsl_rl/train.py --task=Template-Isaac-Velocity-Rough-Anymal-D-v0
+python scripts/rsl_rl/train.py --task=Velocity-G1-v0
+```
+
+```bash
+python scripts/rsl_rl/play.py --task=Velocity-G1-Play-v0
 ```
 
 ### Set up IDE (Optional)
